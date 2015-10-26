@@ -1,5 +1,5 @@
-### Fonction PlotPolysOnStaticMap adaptée pour contrôler la couleur et la taille du texte
-### avec les paramètres coltext et cextext
+## A version of function PlotPolysOnStaticMap {RgoogleMaps} which allows to control color and size of labels with 2 new parameters coltext and cextext
+## Defaults of these parameters are the defaults from the original function of RgoogleMpas package
 
 PlotPolysOnStaticMap2 <-  function (MyMap, polys, col, border = NULL, lwd = 0.25, verbose = 0, 
           add = TRUE, textInPolys = NULL, coltext="blue",cextext=0.75, ...) 
