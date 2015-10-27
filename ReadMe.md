@@ -7,7 +7,7 @@ I adapted PlotPolysOnStaticMap() function to allow changing the size and colour 
 Example:  
 bb <- slot(My_SPDF_dataset,"bbox")  
 MyMap <- GetMap.bbox(bb[1,], bb[2,], destfile ="tmp.png", maptype = "hybrid",size = c(640, 640))  
-PlotPolysOnStaticMap2(MyMap,SpatialToPBS(COM$CLP)$xy ## See help about SpatialToPBS()  
+PlotPolysOnStaticMap2(MyMap,SpatialToPBS((My_SPDF_dataset)$xy ## See help about SpatialToPBS()  
                      ,col=rgb(0,0,0,0),border=rgb(0,0,1,0.3),lwd=5,lty=5  
                      ,textInPolys=My_SPDF_dataset$Labels  
                      ,coltext=rgb(0,0,1,0.3),cextext=2)  
