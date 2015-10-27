@@ -1,4 +1,4 @@
-# Control size and colour of labels when using the RgoogleMpas R-package
+# Control size and colour of labels when using the RgoogleMaps R-package
 
 The functions PlotPolysOnStaticMap() offers the possibility to easily draw polygons on maps on GoogleMaps backgrounds ("roadmap", "mobile", "satellite", "terrain", "hybrid", "mapmaker-roadmap", "mapmaker-hybrid"). You just add the text of your label in textInPolys and it's done.  
 **But** the text is printed by default in blue with a cex size parameters = 0.75 and no way to change it -a least I didn't find-!!  
